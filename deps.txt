@@ -1,0 +1,146 @@
+[INFO] Scanning for projects...
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/jooq/jooq-codegen-maven/3.18.11/jooq-codegen-maven-3.18.11.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.18.11/jooq-codegen-maven-3.18.11.pom
+Progress (1): 1.4/4.5 kBProgress (1): 2.8/4.5 kBProgress (1): 4.1/4.5 kBProgress (1): 4.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.18.11/jooq-codegen-maven-3.18.11.pom (4.5 kB at 45 kB/s)
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/jooq/jooq-parent/3.18.11/jooq-parent-3.18.11.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.18.11/jooq-parent-3.18.11.pom
+Progress (1): 1.4/38 kBProgress (1): 2.8/38 kBProgress (1): 4.1/38 kBProgress (1): 5.5/38 kBProgress (1): 6.9/38 kBProgress (1): 8.3/38 kBProgress (1): 9.7/38 kBProgress (1): 11/38 kB Progress (1): 12/38 kBProgress (1): 14/38 kBProgress (1): 15/38 kBProgress (1): 17/38 kBProgress (1): 18/38 kBProgress (1): 19/38 kBProgress (1): 21/38 kBProgress (1): 22/38 kBProgress (1): 23/38 kBProgress (1): 25/38 kBProgress (1): 26/38 kBProgress (1): 28/38 kBProgress (1): 29/38 kBProgress (1): 30/38 kBProgress (1): 32/38 kBProgress (1): 33/38 kBProgress (1): 34/38 kBProgress (1): 36/38 kBProgress (1): 37/38 kBProgress (1): 38 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.18.11/jooq-parent-3.18.11.pom (38 kB at 900 kB/s)
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/jooq/jooq-codegen-maven/3.18.11/jooq-codegen-maven-3.18.11.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.18.11/jooq-codegen-maven-3.18.11.jar
+Progress (1): 1.4/18 kBProgress (1): 2.8/18 kBProgress (1): 4.1/18 kBProgress (1): 5.5/18 kBProgress (1): 6.9/18 kBProgress (1): 8.3/18 kBProgress (1): 9.7/18 kBProgress (1): 11/18 kB Progress (1): 12/18 kBProgress (1): 14/18 kBProgress (1): 15/18 kBProgress (1): 16/18 kBProgress (1): 17/18 kBProgress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.18.11/jooq-codegen-maven-3.18.11.jar (18 kB at 390 kB/s)
+[INFO] 
+[INFO] -------------------< com.thehecklers:poh-populator >--------------------
+[INFO] Building poh-populator 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.6.1:tree (default-cli) @ poh-populator ---
+[INFO] com.thehecklers:poh-populator:jar:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:3.2.4-SNAPSHOT:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:3.2.4-SNAPSHOT:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:3.2.4-SNAPSHOT:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4-SNAPSHOT:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:3.2.4-SNAPSHOT:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.4.14:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.4.14:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.21.1:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:2.0.12:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:2.2:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:3.2.4-SNAPSHOT:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4-SNAPSHOT:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile
+[INFO] |  +- org.springframework:spring-web:jar:6.1.4:compile
+[INFO] |  |  +- org.springframework:spring-beans:jar:6.1.4:compile
+[INFO] |  |  \- io.micrometer:micrometer-observation:jar:1.12.3:compile
+[INFO] |  |     \- io.micrometer:micrometer-commons:jar:1.12.3:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:6.1.4:compile
+[INFO] |     +- org.springframework:spring-aop:jar:6.1.4:compile
+[INFO] |     +- org.springframework:spring-context:jar:6.1.4:compile
+[INFO] |     \- org.springframework:spring-expression:jar:6.1.4:compile
+[INFO] +- org.springframework.ai:spring-ai-azure-openai-spring-boot-starter:jar:0.8.0:compile
+[INFO] |  +- org.springframework.ai:spring-ai-spring-boot-autoconfigure:jar:0.8.0:compile
+[INFO] |  |  +- io.netty:netty-codec-http2:jar:4.1.107.Final:compile
+[INFO] |  |  |  +- io.netty:netty-common:jar:4.1.107.Final:compile
+[INFO] |  |  |  +- io.netty:netty-buffer:jar:4.1.107.Final:compile
+[INFO] |  |  |  +- io.netty:netty-transport:jar:4.1.107.Final:compile
+[INFO] |  |  |  |  \- io.netty:netty-resolver:jar:4.1.107.Final:compile
+[INFO] |  |  |  +- io.netty:netty-codec:jar:4.1.107.Final:compile
+[INFO] |  |  |  +- io.netty:netty-handler:jar:4.1.107.Final:compile
+[INFO] |  |  |  |  \- io.netty:netty-transport-native-unix-common:jar:4.1.107.Final:compile
+[INFO] |  |  |  \- io.netty:netty-codec-http:jar:4.1.107.Final:compile
+[INFO] |  |  \- redis.clients:jedis:jar:5.0.2:compile
+[INFO] |  |     +- org.apache.commons:commons-pool2:jar:2.12.0:compile
+[INFO] |  |     +- org.json:json:jar:20231013:compile
+[INFO] |  |     \- com.google.code.gson:gson:jar:2.10.1:compile
+[INFO] |  \- org.springframework.ai:spring-ai-azure-openai:jar:0.8.0:compile
+[INFO] |     +- org.springframework.ai:spring-ai-core:jar:0.8.0:compile
+[INFO] |     |  +- org.springframework.cloud:spring-cloud-function-context:jar:4.1.0:compile
+[INFO] |     |  |  +- net.jodah:typetools:jar:0.6.2:compile
+[INFO] |     |  |  \- org.springframework.cloud:spring-cloud-function-core:jar:4.1.0:compile
+[INFO] |     |  +- org.antlr:stringtemplate:jar:4.0.2:compile
+[INFO] |     |  |  \- org.antlr:antlr-runtime:jar:3.3:compile
+[INFO] |     |  +- org.antlr:antlr4-runtime:jar:4.13.1:compile
+[INFO] |     |  +- io.projectreactor:reactor-core:jar:3.6.3:compile
+[INFO] |     |  |  \- org.reactivestreams:reactive-streams:jar:1.0.4:compile
+[INFO] |     |  +- org.springframework:spring-messaging:jar:6.1.4:compile
+[INFO] |     |  +- com.knuddels:jtokkit:jar:1.0.0:compile
+[INFO] |     |  +- com.github.victools:jsonschema-generator:jar:4.31.1:compile
+[INFO] |     |  |  \- com.fasterxml:classmate:jar:1.6.0:compile
+[INFO] |     |  \- com.github.victools:jsonschema-module-jackson:jar:4.31.1:compile
+[INFO] |     +- com.azure:azure-ai-openai:jar:1.0.0-beta.6:compile
+[INFO] |     |  +- com.azure:azure-core:jar:1.45.1:compile
+[INFO] |     |  \- com.azure:azure-core-http-netty:jar:1.13.11:compile
+[INFO] |     |     +- io.netty:netty-handler-proxy:jar:4.1.107.Final:compile
+[INFO] |     |     |  \- io.netty:netty-codec-socks:jar:4.1.107.Final:compile
+[INFO] |     |     +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.107.Final:compile
+[INFO] |     |     |  \- io.netty:netty-transport-classes-epoll:jar:4.1.107.Final:compile
+[INFO] |     |     +- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.107.Final:compile
+[INFO] |     |     |  \- io.netty:netty-transport-classes-kqueue:jar:4.1.107.Final:compile
+[INFO] |     |     +- io.netty:netty-tcnative-boringssl-static:jar:2.0.61.Final:compile
+[INFO] |     |     |  +- io.netty:netty-tcnative-classes:jar:2.0.61.Final:compile
+[INFO] |     |     |  +- io.netty:netty-tcnative-boringssl-static:jar:linux-x86_64:2.0.61.Final:compile
+[INFO] |     |     |  +- io.netty:netty-tcnative-boringssl-static:jar:linux-aarch_64:2.0.61.Final:compile
+[INFO] |     |     |  +- io.netty:netty-tcnative-boringssl-static:jar:osx-x86_64:2.0.61.Final:compile
+[INFO] |     |     |  +- io.netty:netty-tcnative-boringssl-static:jar:osx-aarch_64:2.0.61.Final:compile
+[INFO] |     |     |  \- io.netty:netty-tcnative-boringssl-static:jar:windows-x86_64:2.0.61.Final:compile
+[INFO] |     |     \- io.projectreactor.netty:reactor-netty-http:jar:1.1.16:compile
+[INFO] |     |        +- io.netty:netty-resolver-dns:jar:4.1.107.Final:compile
+[INFO] |     |        |  \- io.netty:netty-codec-dns:jar:4.1.107.Final:compile
+[INFO] |     |        +- io.netty:netty-resolver-dns-native-macos:jar:osx-x86_64:4.1.107.Final:compile
+[INFO] |     |        |  \- io.netty:netty-resolver-dns-classes-macos:jar:4.1.107.Final:compile
+[INFO] |     |        \- io.projectreactor.netty:reactor-netty-core:jar:1.1.16:compile
+[INFO] |     \- org.springframework:spring-context-support:jar:6.1.4:compile
+[INFO] +- org.springframework.ai:spring-ai-azure-vector-store-spring-boot-starter:jar:0.8.0:compile
+[INFO] |  \- org.springframework.ai:spring-ai-azure-vector-store:jar:0.8.0:compile
+[INFO] |     +- com.azure:azure-search-documents:jar:11.6.1:compile
+[INFO] |     |  \- com.azure:azure-json:jar:1.1.0:compile
+[INFO] |     \- com.alibaba.fastjson2:fastjson2:jar:2.0.46:compile
+[INFO] +- org.apache.tika:tika:jar:3.0.0-BETA:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-test:jar:3.2.4-SNAPSHOT:test
+[INFO]    +- org.springframework.boot:spring-boot-test:jar:3.2.4-SNAPSHOT:test
+[INFO]    +- org.springframework.boot:spring-boot-test-autoconfigure:jar:3.2.4-SNAPSHOT:test
+[INFO]    +- com.jayway.jsonpath:json-path:jar:2.9.0:test
+[INFO]    |  \- org.slf4j:slf4j-api:jar:2.0.12:compile
+[INFO]    +- jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.1:test
+[INFO]    |  \- jakarta.activation:jakarta.activation-api:jar:2.1.2:test
+[INFO]    +- net.minidev:json-smart:jar:2.5.0:test
+[INFO]    |  \- net.minidev:accessors-smart:jar:2.5.0:test
+[INFO]    |     \- org.ow2.asm:asm:jar:9.3:test
+[INFO]    +- org.assertj:assertj-core:jar:3.24.2:test
+[INFO]    |  \- net.bytebuddy:byte-buddy:jar:1.14.12:test
+[INFO]    +- org.awaitility:awaitility:jar:4.2.0:test
+[INFO]    +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO]    +- org.junit.jupiter:junit-jupiter:jar:5.10.2:test
+[INFO]    |  +- org.junit.jupiter:junit-jupiter-api:jar:5.10.2:test
+[INFO]    |  |  +- org.opentest4j:opentest4j:jar:1.3.0:test
+[INFO]    |  |  +- org.junit.platform:junit-platform-commons:jar:1.10.2:test
+[INFO]    |  |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO]    |  +- org.junit.jupiter:junit-jupiter-params:jar:5.10.2:test
+[INFO]    |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.10.2:test
+[INFO]    |     \- org.junit.platform:junit-platform-engine:jar:1.10.2:test
+[INFO]    +- org.mockito:mockito-core:jar:5.7.0:test
+[INFO]    |  +- net.bytebuddy:byte-buddy-agent:jar:1.14.12:test
+[INFO]    |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO]    +- org.mockito:mockito-junit-jupiter:jar:5.7.0:test
+[INFO]    +- org.skyscreamer:jsonassert:jar:1.5.1:test
+[INFO]    |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO]    +- org.springframework:spring-core:jar:6.1.4:compile
+[INFO]    |  \- org.springframework:spring-jcl:jar:6.1.4:compile
+[INFO]    +- org.springframework:spring-test:jar:6.1.4:test
+[INFO]    \- org.xmlunit:xmlunit-core:jar:2.9.1:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.803 s
+[INFO] Finished at: 2024-03-10T18:34:15-05:00
+[INFO] ------------------------------------------------------------------------
